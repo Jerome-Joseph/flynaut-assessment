@@ -26,7 +26,7 @@ const HookExample = () => {
      
   return (
     <div>
-        <h1>3) (useState,UseEffect,UseCallback,useContext)</h1>
+        <h1>3) useState UseEffect UseCallback useContext </h1>
         <h2>{data}, This is useState example</h2>
         <h2>Count: {count}, This is useCallback example</h2>
         <button onClick={increment}>+</button>
