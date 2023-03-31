@@ -1,23 +1,24 @@
-import logo from './logo.svg';
 import './App.css';
+import Child from './components/Child';
+import ClassComponent from './components/ClassComponent';
+import Context from './components/Context';
+import FunctionComponent from './components/FunctionComponent';
+import HookExample from './components/HookExample';
+import Part1 from './components/Part1';
+import Scroll from './components/Scroll';
+import UseHookstoUpdate from './components/UseHookstoUpdate';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Part1 />
+      <ClassComponent />
+      <FunctionComponent />
+      <UseHookstoUpdate />
+      <HookExample />
+      <Context />
+      <Scroll />
+      <Child data={"Data sent from parent"} />
     </div>
   );
 }
