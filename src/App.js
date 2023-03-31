@@ -6,18 +6,27 @@ import FunctionComponent from './components/FunctionComponent';
 import HookExample from './components/HookExample';
 import Part1 from './components/Part1';
 import Scroll from './components/Scroll';
+import Socket from './components/Socket';
 import UseHookstoUpdate from './components/UseHookstoUpdate';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       <Part1 />
+      <hr />
       <ClassComponent />
+      <hr />
       <FunctionComponent />
+      <hr />
       <UseHookstoUpdate />
+      <hr />
       <HookExample />
       <Context />
+      <hr />
+      <Socket />
+      <hr />
       <Scroll />
+      <hr />
       <Child data={"Data sent from parent"} />
     </div>
   );

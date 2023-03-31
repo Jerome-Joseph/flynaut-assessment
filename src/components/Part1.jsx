@@ -43,12 +43,12 @@ const Part1 = () => {
     let obj2 = obj1;
     obj1["greeting"] = "Bye";
     console.log(obj1, "3)");
-    console.log(obj2, "3)");
+    console.log(obj2, "3)"); //objects are passed and assigned by reference so both references to the same object.
 
     // 4) 
-    console.log("7" > 7, "4)")
-    console.log("2">"21", "4)")
-    console.log("KL">"S", "4)")
+    console.log("7" > 7, "4)") //JavaScript will convert the string to a number hence it will return false
+    console.log("2">"21", "4)") //JavaScript will convert the string to a number hence it will return false
+    console.log("KL">"S", "4)") //compares only first character and its not same so hence false
 
     // 5) 
     function average(a, b) {
@@ -57,7 +57,7 @@ const Part1 = () => {
     console.log(average(2, 1),"5) Average value");
 
   return (
-    <div>Please check console log for Part 1 answers</div>
+    <h1>Please check console log for Part 1 answers</h1>
   )
 }
 
